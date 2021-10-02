@@ -1,0 +1,134 @@
+/*INDEX*/
+.imgWlc {
+    background-color: rgba(165, 0, 0, 0.178);
+    margin-top: 158px;
+    margin-bottom: 158px;
+    transition: all 2s;
+    text-align: center;
+}
+
+.imgWlc:hover {
+    transform: rotateY(18deg);
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.salirdelaPag {
+    text-decoration: none;
+}
+
+.modal-title {
+    color: $colorLetra;
+}
+
+.modal-body {
+    color: $colorLetra;
+    font-size: 19px;
+    font-style: $styleLetraA;
+}
+
+.modal-content {
+    background-color: black;
+}
+
+.close {
+    color: $colorLetra
+}
+.modal-footer{
+    text-align: center;
+    justify-content: center;
+}
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+/*INDEX*/
+    .imgWlc {
+        background-color: rgba(165, 0, 0, 0.178);
+        margin-top: 312px;
+        margin-bottom: 312px;
+        transition: all 2s;
+        text-align: center;
+    }
+
+    .imgWlc:hover {
+        transform: rotateY(18deg);
+        background-color: rgba(255, 255, 255, 0.055);
+    }
+
+    .btn-primary {
+        background-color: black;
+        border-color: black;
+    }
+
+    .salirdelaPag {
+        text-decoration: none;
+    }
+
+    .modal-title {
+        color: $colorLetra;
+    }
+
+    .modal-body {
+        color: $colorLetra;
+        font-size: 19px;
+        font-style: $styleLetraA;
+    }
+
+    .modal-content {
+        background-color: black;
+    }
+
+    .close {
+        color: $colorLetra
+    }
+}
+    @media only screen and (max-width: 767px){
+    /*INDEX*/
+    .imgWlc {
+        background-color: rgba(165, 0, 0, 0.178);
+        margin-top: 221px;
+        margin-bottom: 221px;
+        transition: all 2s;
+        text-align: center;
+    }
+
+    .imgWlc:hover {
+        transform: rotateY(18deg);
+        background-color: rgba(255, 255, 255, 0.055);
+    }
+
+    .btn {
+        padding: 1px;
+        font-size: 13px;
+    }
+
+    .btn-primary {
+        background-color: black;
+        border-color: black;
+    }
+
+    .salirdelaPag {
+        text-decoration: none;
+    }
+
+    .modal-title {
+        color: $colorLetra;
+    }
+
+    .modal-body {
+        color: $colorLetra;
+        font-size: 19px;
+        font-style: $styleLetraA;
+    }
+
+    .modal-content {
+        background-color: black;
+    }
+
+    .close {
+        color: $colorLetra
+    }
+    }

@@ -1,0 +1,208 @@
+/*GENERAL*/
+body {
+    background-image:url("../assets/img/boxeoOriginal.jpg");
+    font-family:'Roboto';
+    font-style: $styleLetraA;
+    background-attachment: fixed;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    padding-top: auto;
+    background-image: linear-gradient(to top, rgba(165, 0, 0, 0.377), rgba(255, 0, 0, 0));
+    list-style: none;
+
+    .footer__redes {
+        list-style: none;
+        text-decoration: none;
+        color: $colorLetra;
+    }
+
+    .footer__headerRedes {
+        text-decoration: none;
+    }
+}
+
+ul {
+    color: $colorLetra;
+}
+
+li {
+    padding: 16.5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: $colorLetra;
+    cursor: grab;
+    font-size: 19px;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.062);
+    border: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: $colorLetra;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colorLetra;
+}
+
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*GENERAL*/
+    body {
+        background-image:url("../assets/img/boxeoOriginal.jpg");
+
+        font: {
+            family: $letra;
+            style: $styleLetraA;
+        }
+
+        background-attachment: fixed;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 28px;
+        padding-top: auto;
+        background-image: linear-gradient(to top, rgba(165, 0, 0, 0.281), rgba(255, 0, 0, 0));
+        list-style: none;
+
+        .footer__redes {
+            list-style: none;
+            text-decoration: none;
+            color: $colorLetra;
+        }
+
+        .footer__headerRedes {
+            text-decoration: none;
+        }
+    }
+
+    ul {
+        color: $colorLetra;
+    }
+
+    li {
+        padding: 16.5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: $colorLetra;
+        cursor: grab;
+        font-size: 19px;
+    }
+
+    .navbar-toggler {
+        background-color: rgba(255, 43, 43, 0.301);
+        border: none;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: $colorLetra;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $colorLetra;
+    }
+}
+    @media only screen and (max-width: 767px) {
+
+    /*GENERAL*/
+    body {
+        background-image:url("../assets/img/boxeoOriginal.jpg");
+
+        font: {
+            family: $letra;
+            style: $styleLetraA;
+        }
+
+        background-attachment: fixed;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 20px;
+        padding-top: auto;
+        background-image: linear-gradient(to top, rgba(165, 0, 0, 0.281), rgba(255, 0, 0, 0));
+        list-style: none;
+
+        .footer__redes {
+            list-style: none;
+            text-decoration: none;
+            color: $colorLetra;
+        }
+
+        .footer__headerRedes {
+            text-decoration: none;
+        }
+    }
+
+    ul {
+        color: $colorLetra;
+    }
+
+    li {
+        padding: 16.5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: $colorLetra;
+        cursor: grab;
+        font-size: 19px;
+    }
+
+    .navbar-toggler {
+        background-color: rgba(255, 43, 43, 0.301);
+        border: none;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: $colorLetra;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $colorLetra;
+    }
+    }

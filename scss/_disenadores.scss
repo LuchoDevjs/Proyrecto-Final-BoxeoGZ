@@ -1,0 +1,59 @@
+/*DISEÑADORES*/
+.paragraphPadre {
+    display: grid;
+    grid-template-columns: auto;
+    color: $colorLetra;
+    animation: fadeIn;
+  animation-duration: 2s; 
+
+    .paragraphPadre__rellenoD {
+        font-size: 19px;
+        text-align: left;
+        border-style: hidden;
+        border-width: 3px;
+        border-color: $colorLetra;
+        background-color: rgba(122, 0, 0, 0.219);
+        line-height: 65px;
+        padding: 13px;
+    }
+}
+.h2dise{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /*DISEÑADORES*/
+    .paragraphPadre {
+        display: grid;
+        grid-template-columns: auto;
+        color: $colorLetra;
+
+        .paragraphPadre__rellenoD {
+            text-align: left;
+            border-style: hidden;
+            border-width: 3px;
+            border-color: $colorLetra;
+            background-color: rgba(122, 0, 0, 0.219);
+            line-height: 54px;
+        }
+    }
+}
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px){  /*DISEÑADORES*/
+    .paragraphPadre {
+        display: grid;
+        grid-template-columns: auto;
+        color: $colorLetra;
+        padding: 20px;
+
+        .paragraphPadre__rellenoD {
+            text-align: left;
+            border-style: hidden;
+            border-width: 3px;
+            border-color: $colorLetra;
+            background-color: rgba(122, 0, 0, 0.219);
+            line-height: 54px;
+        }
+    }}

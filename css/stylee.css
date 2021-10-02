@@ -1,0 +1,503 @@
+/*CSS GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../assets/img/boxeo.jpg");
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.headerRedes {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.footer {
+    /*background-color: rgba(255, 0, 0, 0.178);*/
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    padding-top: auto;
+    background-image: linear-gradient(to top, rgba(165, 0, 0, 0.281), rgba(255, 0, 0, 0));
+    list-style: none;
+}
+
+.redes {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+li {
+    padding: 16.5px;
+}
+
+ul {
+    color: white;
+}
+
+a:-webkit-any-link {
+    color: rgb(255, 255, 255);
+    cursor: grab;
+    font-size: 19px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.062);
+    border: none;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/*CSS INDEX*/
+.imgWlc {
+    background-color: rgba(165, 0, 0, 0.178);
+    margin-top: 158px;
+    margin-bottom: 158px;
+    transition: all 2s;
+    text-align: center;
+}
+
+.imgWlc:hover {
+    transform: rotateY(19deg);
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.salirdelaPag {
+    text-decoration: none;
+}
+
+.modal-title {
+    color: rgb(255, 255, 255);
+}
+
+.modal-body {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-style: normal;
+}
+
+.modal-content {
+    background-color: black;
+}
+
+.close {
+    color: white;
+}
+
+/*CSS QUIENESOMOS*/
+.paragraphQ {
+    text-align: right;
+    border: 2px solid rgb(105, 105, 105);
+    padding: 10px;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    background-color: rgba(80, 0, 0, 0.438);
+    color: rgb(255, 255, 255);
+    line-height: 70px;
+}
+
+
+/*CSS DISEÑADORES*/
+.paragraph {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.418);
+    background-color: rgba(122, 0, 0, 0.219);
+    color: rgb(255, 255, 255);
+    line-height: 54px;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/*CSS CONTACTO*/
+.form {
+    background-color: rgba(68, 0, 0, 0.233);
+    width: 550px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.form h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.placeholder {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 10px;
+    border-radius: 17px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    font-size: 17px;
+}
+
+.enviar {
+    width: 100px;
+    height: 45px;
+    margin-top: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background: linear-gradient(to top, rgba(129, 47, 47, 0.233), rgba(0, 0, 0, 0.788));
+    font-size: 20px;
+}
+
+.enviar:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.enviar:active {
+    transform: translateY(3px);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+
+    font-size: 15px;
+    line-height: normal;
+}
+
+/*CSS AYUDA*/
+.infoo {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.178);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 333px;
+}
+
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*CSS GENERAL*/
+    body {
+        background-image: url("../assets/img/boxeo.jpg");
+        background-attachment: fixed;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .headerRedes {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+
+    .footer {
+        /*background-color: rgba(255, 0, 0, 0.178);*/
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 20px;
+        padding-top: auto;
+        background-image: linear-gradient(to top, rgba(165, 0, 0, 0.281), rgba(255, 0, 0, 0));
+        list-style: none;
+    }
+
+    .title {
+        font-size: 40px;
+        margin-top: 20px;
+        font-style: italic;
+    }
+
+    /*CSS INDEX*/
+    .imgWlc {
+        background-color: rgba(165, 0, 0, 0.178);
+        margin-top: 316px;
+        margin-bottom: 316px;
+        transition: all 2s;
+        text-align: center;
+    }
+
+    .imgWlc:hover {
+        transform: rotateY(19deg);
+        background-color: rgba(255, 255, 255, 0.055);
+    }
+
+
+    /*CSS QUIENESOMOS*/
+    .paragraphQ {
+        text-align: right;
+        border: 2px solid rgb(105, 105, 105);
+        padding: 10px;
+        border-radius: 2em 1em 4em / 0.5em 3em;
+        background-color: rgba(80, 0, 0, 0.438);
+        color: rgb(255, 255, 255);
+    }
+
+    /*CSS DISENADORES*/
+    .paragraph {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgba(255, 255, 255, 0.418);
+        background-color: rgba(122, 0, 0, 0.219);
+        color: rgb(255, 255, 255);
+        justify-items: center;
+    }
+
+    /*CSS CONTACTO*/
+    .form {
+        background-color: rgba(68, 0, 0, 0.233);
+        width: 500px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+    }
+
+    .form h1 {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    .placeholder {
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.836);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        color: white;
+        font-size: 20px;
+    }
+
+    .enviar {
+        width: 100px;
+        height: 45px;
+        margin-top: 15px;
+        border: 1px solid rgb(0, 0, 0);
+        color: white;
+        background: linear-gradient(to top, rgba(129, 47, 47, 0.233), rgba(0, 0, 0, 0.788));
+        font-size: 20px;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+        transform: translateY(-6px);
+        transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+
+    .enviar:active {
+        transform: translateY(3px);
+    }
+
+    .formu {
+        background-color: rgba(0, 0, 0, 0.178);
+        color: white;
+        font-size: 20px;
+    }
+
+    /*CSS AYUDA*/
+    .infoo {
+        color: white;
+        background-color: rgba(255, 0, 0, 0.178);
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 200px;
+        margin-bottom: 270px;
+    }
+}
+
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+
+    /*CSS GENERAL*/
+    body {
+        background-image: url("../assets/img/boxeo.jpg");
+        background-attachment: fixed;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        line-height: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .headerRedes {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+
+    .footer {
+        /*background-color: rgba(255, 0, 0, 0.178);*/
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 20px;
+        padding-top: auto;
+        background-image: linear-gradient(to top, rgba(165, 0, 0, 0.281), rgba(255, 0, 0, 0));
+        list-style: none;
+    }
+
+    .title {
+        font-size: 40px;
+        margin-top: 20px;
+        font-style: italic;
+    }
+
+    /*CSS INDEX*/
+    .imgWlc {
+        background-color: rgba(165, 0, 0, 0.178);
+        margin-top: 222px;
+        margin-bottom: 222px;
+        transition: all 2s;
+        text-align: center;
+    }
+
+    .imgWlc:hover {
+        transform: rotateY(19deg);
+        background-color: rgba(255, 255, 255, 0.055);
+    }
+
+    .btn {
+        padding: 1px;
+        font-size: 13px;
+    }
+
+
+    /*CSS QUIENESOMOS*/
+    .paragraphQ {
+        text-align: right;
+        border: 2px solid rgb(105, 105, 105);
+        padding: 10px;
+        border-radius: 2em 1em 4em / 0.5em 3em;
+        background-color: rgba(80, 0, 0, 0.438);
+        color: rgb(255, 255, 255);
+        line-height: 40px;
+    }
+
+    /*CSS DISENADORES*/
+    .paragraph {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: left;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgba(255, 255, 255, 0.418);
+        background-color: rgba(122, 0, 0, 0.219);
+        color: rgb(255, 255, 255);
+        justify-items: right;
+    }
+
+    /*CSS CONTACTO*/
+    .form {
+        background-color: rgba(68, 0, 0, 0.233);
+        width: 400px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+    }
+
+    .form h1 {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    .placeholder {
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.836);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        color: white;
+        font-size: 20px;
+    }
+
+    .enviar {
+        width: 100px;
+        height: 45px;
+        margin-top: 15px;
+        border: 1px solid rgb(0, 0, 0);
+        color: white;
+        background: linear-gradient(to top, rgba(129, 47, 47, 0.233), rgba(0, 0, 0, 0.788));
+        font-size: 20px;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+        transform: translateY(-6px);
+        transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+
+    .enviar:active {
+        transform: translateY(3px);
+    }
+
+    .formu {
+        background-color: rgba(0, 0, 0, 0.178);
+        color: white;
+        font-size: 15px;
+    }
+
+    /*CSS AYUDA*/
+    .infoo {
+        color: white;
+        background-color: rgba(255, 0, 0, 0.178);
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 60px;
+        margin-bottom: 113px;
+    }
+}

@@ -1,0 +1,52 @@
+
+/*QUIENESOMOS*/
+.paragraphP {
+    color: $colorLetra;
+    text-align: left;
+    animation: fadeIn; 
+    animation-duration: 2s; 
+
+    .paragraphP__relleno {
+        border: 2px rgb(255, 255, 255);
+        border-style: hidden;
+        padding: 20px;
+        background-color: rgba(61, 0, 0, 0.384);
+        line-height: 60px;
+        font-size: 19px;
+        margin: 31px;
+       
+    }
+}
+
+/*VISTA TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+    /*QUIENESOMOS*/
+    .paragraphP {
+        color: $colorLetra;
+        text-align: left;
+
+        .paragraphP__relleno {
+            border: 2px  rgb(105, 105, 105);
+            border-style: hidden;
+            padding: 10px;
+            background-color: rgba(80, 0, 0, 0.438);
+            line-height: 60px;
+        }
+    }
+}
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px){
+     /*QUIENESOMOS*/
+    .paragraphP {
+        color: $colorLetra;
+        text-align: left;
+
+        .paragraphP__relleno {
+            border: 2pxrgb(105, 105, 105);
+            border-style: hidden;
+            padding: 10px;
+            background-color: rgba(80, 0, 0, 0.438);
+            line-height: 60px;
+        }
+    }
+}
