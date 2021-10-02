@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /*variables*/
 /*GENERAL*/
+* {
+  overflow-x: hidden; }
+
 body {
   background-image: url("../assets/img/boxeoOriginal.jpg");
   font-family: 'Roboto';
