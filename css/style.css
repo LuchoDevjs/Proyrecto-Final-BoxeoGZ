@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /*variables*/
 /*GENERAL*/
-* {
-  overflow-x: hidden; }
-
 body {
   background-image: url("../assets/img/boxeoOriginal.jpg");
   font-family: 'Roboto';
@@ -148,7 +145,7 @@ a:-webkit-any-link {
 
 /*INDEX*/
 .imgWlc {
-  background-color: rgba(165, 0, 0, 0.178);
+  background-color: rgba(247, 23, 23, 0.329);
   margin-top: 158px;
   margin-bottom: 158px;
   transition: all 2s;
@@ -156,7 +153,7 @@ a:-webkit-any-link {
 
 .imgWlc:hover {
   transform: rotateY(18deg);
-  background-color: rgba(255, 255, 255, 0.055); }
+  background-color: rgba(255, 255, 255, 0.253); }
 
 .btn-primary {
   background-color: black;
@@ -187,14 +184,15 @@ a:-webkit-any-link {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /*INDEX*/
   .imgWlc {
-    background-color: rgba(165, 0, 0, 0.178);
-    margin-top: 312px;
-    margin-bottom: 312px;
+    background-color: rgba(255, 0, 0, 0.329);
+    margin-top: 270px;
+    margin-bottom: 268px;
     transition: all 2s;
-    text-align: center; }
+    text-align: center;
+    width: 90%; }
   .imgWlc:hover {
     transform: rotateY(18deg);
-    background-color: rgba(255, 255, 255, 0.055); }
+    background-color: rgba(255, 255, 255, 0.253); }
   .btn-primary {
     background-color: black;
     border-color: black; }
@@ -214,14 +212,15 @@ a:-webkit-any-link {
 @media only screen and (max-width: 767px) {
   /*INDEX*/
   .imgWlc {
-    background-color: rgba(165, 0, 0, 0.178);
-    margin-top: 221px;
-    margin-bottom: 221px;
+    background-color: rgba(255, 0, 0, 0.329);
+    margin-top: 184px;
+    margin-bottom: 190px;
     transition: all 2s;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
   .imgWlc:hover {
     transform: rotateY(18deg);
-    background-color: rgba(255, 255, 255, 0.055); }
+    background-color: rgba(255, 255, 255, 0.253); }
   .btn {
     padding: 1px;
     font-size: 13px; }
@@ -609,6 +608,10 @@ input:focus ~ .barra::before {
   text-align: center;
   padding: 20px; }
 
+@media only screen and (min-width: 1024px) and (max-width: 2000px) {
+  .carrusel2 {
+    display: none; } }
+
 /*VISTA TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /*DISEÑADORES*/
@@ -622,7 +625,11 @@ input:focus ~ .barra::before {
       border-width: 3px;
       border-color: white;
       background-color: rgba(122, 0, 0, 0.219);
-      line-height: 54px; } }
+      line-height: 54px; }
+  .carrusel1 {
+    display: none; }
+  .carrusel2 {
+    display: flex; } }
 
 /*VISTA MOBILE*/
 @media only screen and (max-width: 767px) {
@@ -638,7 +645,9 @@ input:focus ~ .barra::before {
       border-width: 3px;
       border-color: white;
       background-color: rgba(122, 0, 0, 0.219);
-      line-height: 54px; } }
+      line-height: 54px; }
+  .carrusel1 {
+    display: none; } }
 
 /*QUIENESOMOS*/
 .paragraphP {

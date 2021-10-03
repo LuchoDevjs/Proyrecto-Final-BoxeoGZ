@@ -1,6 +1,6 @@
 /*INDEX*/
 .imgWlc {
-    background-color: rgba(165, 0, 0, 0.178);
+    background-color: rgba(247, 23, 23, 0.329);
     margin-top: 158px;
     margin-bottom: 158px;
     transition: all 2s;
@@ -9,7 +9,7 @@
 
 .imgWlc:hover {
     transform: rotateY(18deg);
-    background-color: rgba(255, 255, 255, 0.055);
+    background-color: rgba(255, 255, 255, 0.253);
 }
 
 .btn-primary {
@@ -46,16 +46,17 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 /*INDEX*/
     .imgWlc {
-        background-color: rgba(165, 0, 0, 0.178);
-        margin-top: 312px;
-        margin-bottom: 312px;
+        background-color: rgba(255, 0, 0, 0.329);
+        margin-top: 270px;
+        margin-bottom: 268px;
         transition: all 2s;
         text-align: center;
+        width: 90%;
     }
 
     .imgWlc:hover {
         transform: rotateY(18deg);
-        background-color: rgba(255, 255, 255, 0.055);
+        background-color: rgba(255, 255, 255, 0.253);
     }
 
     .btn-primary {
@@ -88,16 +89,17 @@
     @media only screen and (max-width: 767px){
     /*INDEX*/
     .imgWlc {
-        background-color: rgba(165, 0, 0, 0.178);
-        margin-top: 221px;
-        margin-bottom: 221px;
+        background-color: rgba(255, 0, 0, 0.329);
+        margin-top: 184px;
+        margin-bottom: 190px;
         transition: all 2s;
         text-align: center;
+        width: 100%;
     }
 
     .imgWlc:hover {
         transform: rotateY(18deg);
-        background-color: rgba(255, 255, 255, 0.055);
+        background-color: rgba(255, 255, 255, 0.253);
     }
 
     .btn {

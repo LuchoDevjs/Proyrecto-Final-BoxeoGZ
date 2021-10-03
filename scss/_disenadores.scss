@@ -22,6 +22,11 @@
     text-align: center;
     padding: 20px;
 }
+@media only screen and (min-width: 1024px) and (max-width: 2000px){
+.carrusel2{
+    display: none;
+}
+}
 /*VISTA TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /*DISEÑADORES*/
@@ -38,6 +43,12 @@
             background-color: rgba(122, 0, 0, 0.219);
             line-height: 54px;
         }
+    }
+    .carrusel1{
+        display: none;
+    }
+    .carrusel2{
+        display: flex;
     }
 }
 /*VISTA MOBILE*/
@@ -56,4 +67,8 @@
             background-color: rgba(122, 0, 0, 0.219);
             line-height: 54px;
         }
-    }}
+    }
+    .carrusel1{
+        display: none;
+    }
+}
